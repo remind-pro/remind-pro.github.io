@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delivery</title>
+  <link href="style.css" rel="stylesheet"></head>
+  <body>
+    <div class="overlay"></div>
+    <div class="mobileMenu">
+      <div class="mobileMenu__header">
+        <div class="mobileMenu__close menuControl">
+        </div>
+            <div class="logo"><img class="logo__pic" src="img/logo.svg" alt="" role="presentation"/>
+            </div><a class="mobileMenu__link" href="">
+        <svg class="mobileMenu__pic" role="img">
+          <use xlink:href="img/sprite.svg#cart">
+          </use>
+        </svg></a>
+      </div>
+      <div class="mobileMenu__wrap">
+        <div class="mobileMenu__menuWrap">
+          <div class="mobileMenu__list">
+            <div class="mobileMenu__location mobileMenu__menuItem">
+              <svg class="mobileMenu__pic2" role="img">
+                <use xlink:href="img/sprite.svg#location">
+                </use>
+              </svg>
+              <div class="mobileMenu__item">Санкт-Петербург
+              </div>
+            </div>
+            <div class="mobileMenu__account"><a class="mobileMenu__link mobileMenu__menuItem" href="">
+              <svg class="mobileMenu__pic2" role="img">
+                <use xlink:href="img/sprite.svg#account">
+                </use>
+              </svg>Личный кабинет</a>
+            </div>
+          </div>
+          <div class="mobileMenu__wrapper">
+            <div class="mobileMenu__catalog mobileMenu__openNav"><i class="mobileMenu__icon"></i><span class="mobileMenu__title">Каталог товаров</span><i class="mobileMenu__arrow"></i>
+            </div>
+          </div>
+          <div class="mobileMenu__list">
+            <div class="mobileMenu__compare"><a class="mobileMenu__link mobileMenu__menuItem" href="">
+              <svg class="mobileMenu__pic2" role="img">
+                <use xlink:href="img/sprite.svg#compare-bar">
+                </use>
+              </svg>Сравнение товаров</a>
+            </div>
+            <div class="mobileMenu__favourites"><a class="mobileMenu__link mobileMenu__menuItem" href="">
+              <svg class="mobileMenu__pic2" role="img">
+                <use xlink:href="img/sprite.svg#favourites">
+                </use>
+              </svg>Избранное</a>
+            </div>
+          </div>
+          <div class="mobileMenu__list mobileMenu__list--last"><a class="mobileMenu__link mobileMenu__menuItem" href="">Услуги</a><a class="mobileMenu__link mobileMenu__menuItem" href="">О «Delivery»</a><a class="mobileMenu__link mobileMenu__menuItem" href="">Помощь</a>
+          </div>
+        </div>
+        <div class="mobileMenu__nav">
+          <div class="mobileMenu__heading mobileMenu__openNav"><i class="mobileMenu__arrow mobileMenu__arrow--back"></i><span class="mobileMenu__back">Каталог товаров</span>
+          </div>
+          <ul class="mobileMenu__navList">
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#tv">
+                </use>
+              </svg>Телевизоры и видео<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#audio">
+                </use>
+              </svg>Аудио техника<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#game">
+                </use>
+              </svg>Игры и развлечения<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#computer">
+                </use>
+              </svg>Компьютеры<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#phone">
+                </use>
+              </svg>Телефоны<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#photo">
+                </use>
+              </svg>Фото и видеокамеры<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#home-prod">
+                </use>
+              </svg>Товары для дома<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#decor">
+                </use>
+              </svg>Декор для дома<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#home-tech">
+                </use>
+              </svg>Техника для дома<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#kitchen">
+                </use>
+              </svg>Техника для кухни<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#climat">
+                </use>
+              </svg>Климатическая техника<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#auto">
+                </use>
+              </svg>Авто-электроника<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+            <li class="mobileMenu__navItem"><a class="mobileMenu__navLink" href="">
+              <svg class="mobileMenu__navPic" role="img">
+                <use xlink:href="img/sprite.svg#furniture">
+                </use>
+              </svg>Мебель<i class="mobileMenu__arrow mobileMenu__arrow--nav"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header class="pageHeader">
+      <div class="topMenu">
+        <div class="topMenu__grid">
+          <div class="location">
+            <svg class="location__pic" role="img">
+              <use xlink:href="img/sprite.svg#location">
+              </use>
+            </svg>
+            <div class="location__item">Санкт-Петербург
+            </div>
+            <svg class="location__pic2" role="img">
+              <use xlink:href="img/sprite.svg#arrow">
+              </use>
+            </svg>
+          </div>
+          <div class="mainNav"><a class="mainNav__link" href="">Услуги</a><a class="mainNav__link" href="">Акции</a><a class="mainNav__link" href="">Бонусы</a><a class="mainNav__link" href="">Магазины</a>
+          </div>
+          <div class="account"><a class="account__link" href="">
+            <svg class="account__pic" role="img">
+              <use xlink:href="img/sprite.svg#account">
+              </use>
+            </svg>Личный кабинет</a>
+          </div>
+        </div>
+      </div>
+      <div class="pageHeader__grid">
+        <div class="selectCity">
+          <div class="selectCity__header"><span class="selectCity__heading">Выбор города</span><i class="selectCity__close"></i>
+          </div>
+          <div class="selectCity__wrap">
+            <div class="selectCity__column selectСity__column--1">
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Москва</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Санкт-Петербург</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Новосибирск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Екатеринбург</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Нижний Новгород</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Казань</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Челябинск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Омск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Сочи</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Уфа</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Самара</a>
+              </div>
+            </div>
+            <div class="selectCity__column selectСity__column--2">
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Красноярск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Пермь</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Краснодар</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Воронеж</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Барнаул</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Горно-Алтайск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Кемерово</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Оренбург</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Рязань</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Пенза</a>
+              </div>
+            </div>
+            <div class="selectCity__column selectСity__column--3">
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Тула</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Чебоксары</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Магнитогорск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Ростов-на-Дону</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Симферополь</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Брянск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Ставрополь</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Мурманск</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Чита</a>
+              </div>
+              <div class="selectCity__item"><i class="selectCity__icon"></i><a class="selectCity__title" href="">Череповец</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pageHeader__wrap">
+          <div class="pageHeader__btnWrap menuControl"><i class="pageHeader__menuBtn"></i>
+          </div>
+              <div class="logo"><img class="logo__pic" src="img/logo.svg" alt="" role="presentation"/>
+              </div>
+          <div class="contacts"><a class="contacts__phone" href="tel:+79650666655" title="+7 (965) 066-66-55">+7 (965) 066-66-55</a><a class="contacts__mail" href="mailto:sale@remind-media.ru" title="sale@remind-media.ru">sale@remind-media.ru</a>
+          </div>
+          <div class="orderBar"><i class="orderBar__line orderBar__line--mob"></i>
+            <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic"></i><i class="favourites__counter favourites__counter--active">45</i></a>
+            </div><i class="orderBar__line"></i>
+            <div class="compare"><a class="compare__link" href="">
+              <svg class="compare__pic" role="img">
+                <use xlink:href="img/sprite.svg#compare-bar">
+                </use>
+              </svg><i class="compare__counter compare__counter--active">45</i></a>
+            </div><i class="orderBar__line"></i>
+            <div class="shoppingCart"><a class="shoppingCart__link" href=""><i class="shoppingCart__pic shoppingCart__pic--active"></i><span class="shoppingCart__description"><span class="shoppingCart__heading">200 000 ₽</span><span class="shoppingCart__title">15 товаров</span></span></a>
+            </div>
+          </div><a class="pageHeader__link" href="">
+          <svg class="pageHeader__pic" role="img">
+            <use xlink:href="img/sprite.svg#cart">
+            </use>
+          </svg></a>
+        </div>
+      </div>
+      <div class="pageHeader__wrap pageHeader__wrap--bottom">
+        <div class="pageHeader__grid">
+          <div class="catalogBtn openCatalog">
+            <svg class="catalogBtn__pic openCatalog" xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13">
+              <g class="catalogBtn__btn" fill="none" fill-rule="evenodd" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M1.5 1.5h21.226M1.5 6.506h16.328M1.599 11.482h11.43">
+                </path>
+              </g>
+            </svg><span class="catalogBtn__title openCatalog">Каталог товаров</span>
+          </div>
+          <div class="siteSearch"><input class="siteSearch__input" type="text" placeholder="Поиск по сайту"/>
+            <svg class="siteSearch__pic" role="img">
+              <use xlink:href="img/sprite.svg#search">
+              </use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="grid">
+      <section class="firstScreen">
+        <nav class="pageNav openCatalog">
+          <ul class="pageNav__list">
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#tv">
+                </use>
+              </svg>Телевизоры и видео
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#audio">
+                </use>
+              </svg>Аудио техника
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#game">
+                </use>
+              </svg>Игры и развлечения
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#computer">
+                </use>
+              </svg>Компьютеры
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#phone">
+                </use>
+              </svg>Телефоны
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#photo">
+                </use>
+              </svg>Фото и видеокамеры
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#home-prod">
+                </use>
+              </svg>Товары для дома
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#decor">
+                </use>
+              </svg>Декор для дома
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#home-tech">
+                </use>
+              </svg>Техника для дома
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#kitchen">
+                </use>
+              </svg>Техника для кухни
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#climat">
+                </use>
+              </svg>Климатическая техника
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#auto">
+                </use>
+              </svg>Авто-электроника
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+            <li class="pageNav__item"><a class="pageNav__link" href="">
+              <svg class="pageNav__pic" role="img">
+                <use xlink:href="img/sprite.svg#furniture">
+                </use>
+              </svg>Мебель
+              <svg class="pageNav__svg" xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8">
+                <path class="pageNav__arrow" fill="none" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="round" stroke-linejoin="round" d="M1 8l4-4-4-4">
+                </path>
+              </svg></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="banners">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="banners__item swiper-slide"><img class="banners__content" src="img/banner.jpg" alt="" role="presentation"/>
+              </div>
+              <div class="banners__item swiper-slide"><img class="banners__content" src="img/banner.jpg" alt="" role="presentation"/>
+              </div>
+              <div class="banners__item swiper-slide"><img class="banners__content" src="img/banner.jpg" alt="" role="presentation"/>
+              </div>
+              <div class="banners__item swiper-slide"><img class="banners__content" src="img/banner.jpg" alt="" role="presentation"/>
+              </div>
+            </div>
+          </div>
+          <div class="pagination pagination--banners">
+          </div><i class="banners__paginationArrow banners__paginationArrow--right"></i><i class="banners__paginationArrow banners__paginationArrow--left"></i>
+        </div>
+        <div class="catalog"><span class="catalog__heading">Телевизоры и видео</span>
+          <div class="catalog__wrap">
+            <div class="catalog__column catalog__column--1">
+              <div class="catalog__list"><a class="catalog__title" href="">Встраиваемая техника</a><a class="catalog__item" href="">Встраиваемые духовые шкафы</a><a class="catalog__item" href="">Встраиваемые варочные панели</a><a class="catalog__item" href="">Встраиваемые микроволновые печи</a><a class="catalog__item" href="">Встраиваемые посудомоечные машины</a><a class="catalog__item" href="">Встраиваемые стиральные машины</a>
+              </div>
+              <div class="catalog__list"><a class="catalog__title" href="">Вытяжки</a>
+              </div>
+              <div class="catalog__list"><a class="catalog__title" href="">Холодильники</a><a class="catalog__item" href="">Холодильники</a><a class="catalog__item" href="">Холодильники Side-by-Side</a><a class="catalog__item" href="">Холодильники барные</a><a class="catalog__item" href="">Холодильники винные</a><a class="catalog__item" href="">Морозильные камеры</a><a class="catalog__item" href="">Аксессуары для холодильников</a>
+              </div>
+            </div>
+            <div class="catalog__column catalog__column--2">
+              <div class="catalog__list"><a class="catalog__title" href="">Приготовление напитков</a><a class="catalog__item" href="">Кофеварки</a><a class="catalog__item" href="">Кофемашины</a><a class="catalog__item" href="">Кофемолки</a><a class="catalog__item" href="">Соковыжималки</a>
+              </div>
+              <div class="catalog__list"><a class="catalog__title" href="">Кухонные плиты</a><a class="catalog__item" href="">Плиты Газовые</a><a class="catalog__item" href="">Плиты Электрические</a>
+              </div>
+              <div class="catalog__list"><a class="catalog__title" href="">Механическая обработка пищи</a><a class="catalog__item" href="">Блендеры</a><a class="catalog__item" href="">Измельчители</a><a class="catalog__item" href="">Кухонные комбайны</a><a class="catalog__item" href="">Миксеры</a><a class="catalog__item" href="">Мясорубки</a>
+              </div>
+            </div>
+            <div class="catalog__column catalog__column--3">
+              <div class="catalog__list"><a class="catalog__title" href="">Посудомоечные машины</a>
+              </div>
+              <div class="catalog__list"><a class="catalog__title" href="">Термическая обработка пищи</a><a class="catalog__item" href="">Аэрогрили</a><a class="catalog__item" href="">Блинницы</a><a class="catalog__item" href="">Йогуртницы</a><a class="catalog__item" href="">Микроволновые печи</a><a class="catalog__item" href="">Мультиварки</a><a class="catalog__item" href="">Пароварки</a><a class="catalog__item" href="">Мини-печи, ростеры</a><a class="catalog__item" href="">Варочные панели</a><a class="catalog__item" href="">Сэндвичницы</a><a class="catalog__item" href="">Тостеры</a><a class="catalog__item" href="">Хлебопечи</a><a class="catalog__item" href="">Чайники</a><a class="catalog__item" href="">Гриль электрический</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sale">
+        <div class="sale__header">
+          <h2 class="sale__heading">Распродажа
+          </h2>
+          <div class="sale__arrowWrap"><i class="sale__arrow sale__arrow--prev"></i><i class="sale__arrow sale__arrow--next"></i>
+          </div>
+        </div>
+        <div class="swiper-container--sale">
+          <div class="swiper-wrapper">
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><i class="productCard__arrow"></i><span class="productCard__item productCard__item--finalPrice">Финальная цена</span><span class="productCard__item productCard__item--hit">Хит продаж</span><span class="productCard__item productCard__item--benefit">Выгода 40%</span><span class="productCard__item productCard__item--discount">Скидка</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><i class="productCard__arrow"></i><span class="productCard__item productCard__item--hit">Хит продаж</span><span class="productCard__item productCard__item--benefit">Выгода 40%</span><span class="productCard__item productCard__item--discount">Скидка</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><span class="productCard__item productCard__item--benefit">Выгода 40%</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><span class="productCard__item productCard__item--discount">Скидка</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card compare__pic--active"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card favourites__pic--active"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><i class="productCard__arrow"></i><span class="productCard__item productCard__item--finalPrice">Финальная цена</span><span class="productCard__item productCard__item--hit">Хит продаж</span><span class="productCard__item productCard__item--benefit">Выгода 40%</span><span class="productCard__item productCard__item--discount">Скидка</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><i class="productCard__arrow"></i><span class="productCard__item productCard__item--hit">Хит продаж</span><span class="productCard__item productCard__item--benefit">Выгода 40%</span><span class="productCard__item productCard__item--discount">Скидка</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><span class="productCard__item productCard__item--benefit">Выгода 40%</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star-empty">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown"><span class="productCard__item productCard__item--discount">Скидка</span>
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card compare__pic--active"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card favourites__pic--active"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination pagination--sale"><i class="pagination__item pagination__item--active pagination__item--sale"></i><i class="pagination__item pagination__item--sale"></i><i class="pagination__item pagination__item--sale"></i><i class="pagination__item pagination__item--sale"></i>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="service__item service__item--middle">
+          <div class="service__pic service__pic--home">
+          </div>
+          <h3 class="service__heading service__heading--home">Мебель <span class="service__heading service__heading--grey">для вашего</span>дома
+          </h3><a class="service__link" href=""></a>
+        </div>
+        <div class="service__wrap">
+          <div class="service__item service__item--min">
+            <div class="service__headingWrap">
+              <h3 class="service__heading service__heading--low">Скидка
+              </h3><span class="service__heading service__heading--big">5%</span><span class="service__heading service__heading--min">при оплате онлайн</span>
+            </div>
+            <div class="service__pic service__pic--sale">
+            </div><a class="service__link" href=""></a>
+          </div>
+          <div class="service__item service__item--min2"><a class="service__link" href=""></a>
+          </div>
+        </div>
+        <div class="service__item service__item--big">
+          <div class="service__wrapper">
+            <h3 class="service__heading service__heading--middle2">Доставка delivery
+            </h3>
+            <p class="service__description">На нашем сайте Вы можете оформить ваш заказ с курьерской доставкой, домой или в офис. Стандартная доставка по городу 300 ₽
+            </p>
+            <button class="service__calculate">Рассчитать стоимость доставки 
+            </button><span class="service__calculateText">Рассчитать стоимость доставки </span><a class="service__link service__link--delivery" href=""></a>
+          </div>
+          <div class="service__pic service__pic--delivery">
+          </div>
+        </div>
+      </section>
+      <section class="saleHits">
+        <div class="saleHits__header">
+          <h2 class="saleHits__heading">Хиты продаж
+          </h2>
+          <div class="saleHits__arrowWrap"><i class="saleHits__arrow saleHits__arrow--prev"></i><i class="saleHits__arrow saleHits__arrow--next"></i>
+          </div>
+        </div>
+        <div class="swiper-container--saleHits">
+          <div class="swiper-wrapper">
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="productCard swiper-slide">
+              <div class="productCard__dropDown">
+              </div>
+              <div class="productCard__preview"><img class="productCard__picture" src="img/test-pic.jpg" alt="pic" title=""/>
+              </div>
+              <div class="productCard__description">
+                <div class="productCard__bar">
+                  <div class="compare"><a class="compare__link" href=""><i class="compare__pic compare__pic--card"></i></a>
+                  </div>
+                  <div class="favourites"><a class="favourites__link" href=""><i class="favourites__pic favourites__pic--card"></i></a>
+                  </div>
+                </div>
+                <div class="productCard__wrap productCard__wrap--column"><span class="productCard__name">Телевизор SAMSUNG</span><span class="productCard__name">SUPER LED AMOLED Smart+</span>
+                </div>
+                <div class="productCard__wrap"><span class="productCard__stock">В наличии</span>
+                  <div class="productCard__volume">
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                    <svg class="productCard__star" role="img">
+                      <use xlink:href="img/sprite.svg#star">
+                      </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="productCard__price"><span class="productCard__currentPrice">1 539 <span class="productCard__rouble">₽</span></span><span class="productCard__oldPrice">2 000 <span class="productCard__rouble">₽</span></span>
+                </div>
+                <div class="productCard__addWrap">
+                  <div class="productCard__bar--mobile">
+                    <div class="compare"><a class="compare__link" href="">
+                      <svg class="compare__pic compare__pic--card" role="img">
+                        <use xlink:href="img/sprite.svg#compare-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                    <div class="favourites"><a class="favourites__link" href="">
+                      <svg class="favourites__pic compare__pic--card compare__pic--card2" role="img">
+                        <use xlink:href="img/sprite.svg#favourites-active">
+                        </use>
+                      </svg></a>
+                    </div>
+                  </div>
+                  <button class="productCard__add">В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination pagination--sale"><i class="pagination__item pagination__item--active pagination__item--sale"></i><i class="pagination__item pagination__item--sale"></i><i class="pagination__item pagination__item--sale"></i><i class="pagination__item pagination__item--sale"></i>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <h3 class="feedback__heading">Возникли вопросы?
+        </h3>
+        <p class="feedback__description">Оставьте Ваш номер телефона и с Вами свяжутся в ближайшее время.
+        </p>
+        <button class="feedback__callback">Заказать звонок
+        </button>
+      </section><img src="img/sprite.svg" alt="" hidden>
+    </div>
+    <footer class="pageFooter">
+      <div class="pageFooter__grid">
+        <div class="pageFooter__contactsWrap">
+              <div class="logo"><img class="logo__pic" src="img/logo-white.svg" alt="" role="presentation"/>
+              </div>
+          <div class="pageFooter__contacts"><a class="pageFooter__phone" href="tel:+79650666655" title="+7 (965) 066-66-55">+7 (965) 066-66-55</a>
+            <p class="pageFooter__time">10:00-19:00, сб-вс с 10:00-18:00
+            </p><a class="pageFooter__mail" href="mailto:sale@remind-media.ru" title="sale@remind-media.ru">sale@remind-media.ru</a>
+          </div>
+              <div class="social"><a class="social__link" href=""><i class="social__icon social__icon--vk"></i></a><a class="social__link social__link--margin" href=""><i class="social__icon social__icon--fb"></i></a><a class="social__link" href=""><i class="social__icon social__icon--inst"></i></a>
+              </div>
+        </div>
+        <div class="pageFooter__info">
+          <div class="pageFooter__list">
+            <div class="pageFooter__item"><span class="pageFooter__heading">О «Delivery»</span><a class="pageFooter__link" href="">О компании</a><a class="pageFooter__link" href="">Вакансии</a><a class="pageFooter__link" href="">Магазины</a><a class="pageFooter__link" href="">Режим работы</a>
+            </div>
+            <div class="pageFooter__item"><span class="pageFooter__heading">Услуги</span><a class="pageFooter__link" href="">Акции</a><a class="pageFooter__link" href="">Бонусы</a><a class="pageFooter__link" href="">Доставка</a><a class="pageFooter__link" href="">Сервис</a>
+            </div>
+            <div class="pageFooter__item"><span class="pageFooter__heading">Помощь</span><a class="pageFooter__link" href="">Обратная связь</a><a class="pageFooter__link" href="">Покупателям</a><a class="pageFooter__link" href="">Страхование</a><a class="pageFooter__link" href="">Карта сайта</a>
+            </div>
+          </div>
+          <div class="pageFooter__private"><a class="pageFooter__policy" href="">Политика конфиденциальности</a><span class="pageFooter__copyright">©remind-media.ru Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script type="text/javascript" src="app.js"></script></body>
+</html>
