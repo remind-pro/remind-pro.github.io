@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Account details</title>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="layout__cell">
+        <header class="pageHeader">
+          <div class="logo"><a class="logo__link" href="index.html"><img class="logo__pic" src="img/logo.svg" alt="" role="presentation"/></a>
+          </div><a class="pageHeader__button" href="createInvoice.html">Save changes</a>
+        </header>
+      </div>
+      <div class="layout__wrap">
+        <div class="layout__cell layout__cell--aside">
+          <aside class="aside">
+            <nav class="aside__nav">
+              <ul class="aside__list">
+                <li class="aside__item"><a class="aside__link" href="index.html">Home</a>
+                </li>
+                <li class="aside__item"><a class="aside__link aside__link--active" href="accountFree.html">Account</a>
+                </li>
+                <li class="aside__item"><a class="aside__link" href="upgrade.html">Upgrade</a>
+                </li>
+                <li class="aside__item"><a class="aside__link" href="mailto:hello@ir.com">Support</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="aside__info"><span class="aside__title aside__title--plan">FREE PLAN</span><span class="aside__title">2/5 invoices</span><span class="aside__title aside__title--reg">left this month</span><a class="aside__title aside__title--link" href="upgrade.html">Upgrade now!</a>
+            </div>
+          </aside>
+        </div>
+        <div class="info">
+          <div class="layout__cell">
+            <section class="form">
+              <div class="form__header">
+                <h2 class="form__heading">Account details
+                </h2>
+              </div>
+              <form class="form__list form__list--Accountdetails">
+                <div class="form__wrap form__wrap--Accountdetails1">
+                  <div class="form__item form__item--Accountdetails1">
+                    <label class="form__title" for="Accountdetails1">Name
+                    </label><input class="form__input" placeholder="Thompson Jefferies" id="Accountdetails1" type="text"/>
+                  </div>
+                  <div class="form__item form__item--Accountdetails2">
+                    <label class="form__title" for="Accountdetails2">Email
+                    </label><input class="form__input" placeholder="tjeff@piperplumbing.com" id="Accountdetails2" type="text"/>
+                  </div>
+                </div>
+                <div class="form__wrap form__wrap--Accountdetails2">
+                  <div class="form__item form__item--Accountdetails3">
+                    <label class="form__title" for="Accountdetails3">Plan
+                    </label>
+                    <div class="form__itemWrap"><input class="form__input" placeholder="Free" id="Accountdetails3" type="text"/><a class="form__upgrade" href="upgrade.html">Upgrade now</a>
+                    </div>
+                  </div>
+                  <div class="form__item form__item--Accountdetails4">
+                    <label class="form__title" for="Accountdetails4">Currency
+                    </label><input class="form__input" placeholder="$USD" id="Accountdetails4" type="text"/>
+                  </div>
+                </div>
+              </form>
+            </section>
+            <section class="form">
+              <div class="form__header">
+                <h2 class="form__heading">Invoice settings
+                </h2>
+              </div>
+              <form class="form__list form__list--Invoicesettings">
+                <div class="form__wrap form__wrap--Invoicesettings1">
+                  <div class="form__item form__item--Invoicesettings1">
+                    <label class="form__title" for="Invoicesettings1">My company name
+                    </label><input class="form__input" placeholder="Piper Plumbing Co." id="Invoicesettings1" type="text"/>
+                  </div>
+                  <div class="form__item form__item--Invoicesettings2">
+                    <label class="form__title" for="Invoicesettings2">My company phone number
+                    </label><input class="form__input" placeholder="1234567890" id="Invoicesettings2" type="text"/>
+                  </div>
+                </div>
+                <div class="form__wrap form__wrap--Invoicesettings2">
+                  <div class="form__item form__item--Invoicesettings3">
+                    <label class="form__title" for="Invoicesettings3">My company email
+                    </label><input class="form__input" placeholder="email@email.com" id="Invoicesettings3" type="text"/>
+                  </div>
+                  <div class="form__item form__item--Invoicesettings4">
+                    <label class="form__title" for="Invoicesettings4">My company website
+                    </label><input class="form__input" placeholder="piperplumbing.com" id="Invoicesettings4" type="text"/>
+                  </div>
+                </div>
+                <div class="form__wrap form__wrap--Invoicesettings3">
+                  <div class="form__item form__item--Invoicesettings5">
+                    <label class="form__title" for="Invoicesettings5">My company tagline
+                    </label><input class="form__input" placeholder="We unclog pipes so you don’t have to." id="Invoicesettings5" type="text"/>
+                  </div>
+                </div>
+                <div class="form__wrap form__wrap--Invoicesettings4">
+                  <div class="form__item form__item--Invoicesettings6">
+                    <label class="form__title" for="Invoicesettings6">My company address
+                    </label><input class="form__input" placeholder="99 New Pipe Street, Newtown, 12345, Plumbing Nation." id="Invoicesettings6" type="text"/>
+                  </div>
+                </div>
+              </form>
+            </section>
+            <section class="form">
+              <div class="form__header">
+                <h2 class="form__heading">Premium features
+                </h2>
+              </div>
+              <form class="form__list">
+                <div class="form__wrap">
+                  <div class="form__item">
+                    <label class="form__title" for="premium">Thank you footer
+                    </label><input class="form__input" placeholder="Thank you for your business!" id="premium" type="text"/>
+                  </div>
+                  <div class="form__setLogo"><span class="form__text">Company logo</span>
+                    <button class="form__addLogo">
+                    </button>
+                  </div>
+                </div>
+                <div class="form__upgradeOverlay">
+                  <div class="form__upgradeTitle">Want to access premium features?
+                  </div><a class="form__upgradeBtn" href="upgrade.html">Upgrade now</a>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

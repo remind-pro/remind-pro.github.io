@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Create receipt</title>
+  </head>
+  <body>
+    <header class="pageHeader"><a class="pageHeader__goBack" href="index.html">Go back</a>
+      <div class="pageHeader__heading">Invoice #00001
+      </div><a class="pageHeader__button" href="createInvoice.html">Generate invoice</a>
+    </header>
+    <div class="info">
+      <section class="form">
+        <div class="form__header">
+          <h2 class="form__heading">Client info
+          </h2>
+        </div>
+        <form class="form__list form__list--Clientinfo">
+          <div class="form__wrap form__wrap--Clientinfo1">
+            <div class="form__item form__item--Clientinfo1">
+              <label class="form__title" for="Clientinfo1">Client name
+              </label><input class="form__input" placeholder="The vegan Co" id="Clientinfo1" type="text"/>
+            </div>
+            <div class="form__item form__item--Clientinfo2">
+              <label class="form__title" for="Clientinfo2">Client phone number
+              </label><input class="form__input" placeholder="1234567890" id="Clientinfo2" type="text"/>
+            </div>
+          </div>
+          <div class="form__wrap form__wrap--Clientinfo2">
+            <div class="form__item form__item--Clientinfo3">
+              <label class="form__title" for="Clientinfo3">Client address
+              </label><input class="form__input" placeholder="99, Beet Root Street, Carrot Town, 12345, Cabbage Country" id="Clientinfo3" type="text"/>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="form">
+        <div class="form__header">
+          <h2 class="form__heading">Receipt settings
+          </h2>
+        </div>
+        <form class="form__list">
+          <div class="form__wrapper">
+            <label class="form__item form__item--checkBox" for="checkBox1"><span class="form__customInput form__customInput--active"></span><input class="form__checkBox" type="checkbox" id="checkBox1" hidden="hidden"/><span class="form__checkBoxTitle">Turn on link sharing and copy to my clipboard</span>
+            </label>
+            <label class="form__item form__item--checkBox" for="checkBox1"><span class="form__customInput"></span><input class="form__checkBox" type="checkbox" id="checkBox1" hidden="hidden"/><span class="form__checkBoxTitle">Automagically email link to client and CC me on it<span class="form__checkBoxTitle form__checkBoxTitle--reg">(To: client@email.com, From: me@email.com)</span></span>
+            </label>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
